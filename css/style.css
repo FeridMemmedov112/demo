@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-height: 100vh;
+   
+}
+ 
+ .img{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 8px 9px;
+ }
+
+
+ form {
+     text-align: center;
+     
+ }
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 7px;
+}
+
+ button {
+   
+     border: 1px solid #0095f6 ;
+     background-color: #0095f6;
+     text-align: center;
+     height: 30px;
+     width: 268px;
+     border-radius: 2px;
+     color: white;
+ }
+ .account{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 12px 8px;
+     cursor: pointer;
+ }
+ .sign {
+     box-shadow: 10px;
+     border: 1px solid #d3d1d1;
+     margin-left: 500px;
+     margin-right: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+     background-color: white;
+ }
+ .img-2{
+     display: flex;
+     justify-content: center;
+     padding: 15px;
+     align-items: center;
+     cursor: pointer;
+ }
+ footer{
+     display: flex;
+     text-align: center;
+     justify-content:space-around;
+    padding-right: 300px;
+    padding-left: 300px;
+    
+ }
+ footer a{
+     color: #8e8e8e;
+     text-decoration: none;
+ }
+ .lang {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color: #8e8e8e;
+     padding: 10px;
+ }
+.nav {
+    box-shadow: 100px;
+   border: 1px solid #d3d1d1;
+   margin-right: 500px;
+   margin-left: 500px;
+   padding-bottom: 100px;
+   background-color: white;
+   padding: 10px;
+}
+ 
